@@ -1,5 +1,5 @@
 print('Hello, World')
-
+print('versus')
 ###############################################################################
 #
 #   This line is a COMMENT -- a note to human readers of this file.
@@ -32,7 +32,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Notice the small horizontal BLUE bars on the scrollbar-like thing
 #   on the right.  Each blue bar indicates a thing TO-DO in this module.
 #
@@ -57,7 +57,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Add another   print   statement below the current Line 1 above.
 #   It should print any string that you want (but keep it G-rated!)
 #
