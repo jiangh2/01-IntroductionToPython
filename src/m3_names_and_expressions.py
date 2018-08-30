@@ -108,5 +108,6 @@ print(type(math.sin(8)))
 print(type(math.sin))
 print(type(print))
 print(type(math))
-print(type('math'
-           ''))
+print(type('math'))
+
+
