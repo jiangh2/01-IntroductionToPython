@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Hao Jiang.
 """
 ###############################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #
 #   On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving, *click anywhere in the window to close it*.
 #
@@ -100,7 +100,8 @@ boris.forward(200)
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle('turtle')
 natasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
-natasha.speed = 10  # Faster
+natasha.speed = 1000
+# Faster
 
 natasha.backward(50)
 natasha.right(90)
@@ -108,6 +109,10 @@ natasha.forward(50)
 
 natasha.speed = 1  # Now slower
 natasha.go_to(rg.Point(-100, 200))
+natasha.go_to(rg.Point(100, 200))
+
+bryant = rg.SimpleTurtle('turtle')
+bryant.pen = rg.Pen('red', 10)
 
 ###############################################################################
 #
