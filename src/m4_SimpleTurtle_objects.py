@@ -26,8 +26,7 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 ###############################################################################
 
 import rosegraphics as rg
-
-###############################################################################
+#########################i######################################################
 #
 # DONE: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
