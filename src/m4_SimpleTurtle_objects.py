@@ -99,10 +99,10 @@ boris.forward(200)
 #     set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle('turtle')
-natasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
+natasha.pen = rg.Pen('red', 1)  # Second argument is the Pen's thickness
 natasha.speed = 1000# Faster
 
-natasha.backward(50)
+natasha.backward(100)
 natasha.right(90)
 natasha.forward(50)
 
@@ -112,7 +112,7 @@ natasha.go_to(rg.Point(100, 200))
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more lines of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
@@ -123,10 +123,10 @@ natasha.go_to(rg.Point(100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
-
+boris.go_to(rg.Point(200, 200))
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -152,10 +152,11 @@ natasha.go_to(rg.Point(100, 200))
 ###############################################################################
 
 bryant = rg.SimpleTurtle('turtle')
-bryant.pen = rg.Pen('blue', 10)
+bryant.pen = rg.Pen('blue', 2)
 bryant.speed = 100
 
-bryant.forward(100)
+bryant.go_to(rg.Point(0, 200))
+bryant.go_to(rg.Point(100, 200))
 ###############################################################################
 #
 # TODO: 6.
