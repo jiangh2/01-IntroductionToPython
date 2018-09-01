@@ -1,5 +1,6 @@
 print('Hello, World')
-print('versus')
+print("G-rated")
+
 ###############################################################################
 #
 #   This line is a COMMENT -- a note to human readers of this file.
@@ -81,7 +82,8 @@ print('versus')
 #   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.
 #
 ###############################################################################
-
+answer = 3607*34227
+print(answer)
 ###############################################################################
 #
 # DONE: 5.

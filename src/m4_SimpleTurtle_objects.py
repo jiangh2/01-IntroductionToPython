@@ -100,8 +100,7 @@ boris.forward(200)
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle('turtle')
 natasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
-natasha.speed = 1000
-# Faster
+natasha.speed = 1000# Faster
 
 natasha.backward(50)
 natasha.right(90)
@@ -110,9 +109,6 @@ natasha.forward(50)
 natasha.speed = 1  # Now slower
 natasha.go_to(rg.Point(-100, 200))
 natasha.go_to(rg.Point(100, 200))
-
-bryant = rg.SimpleTurtle('turtle')
-bryant.pen = rg.Pen('red', 10)
 
 ###############################################################################
 #
@@ -155,6 +151,11 @@ bryant.pen = rg.Pen('red', 10)
 #
 ###############################################################################
 
+bryant = rg.SimpleTurtle('turtle')
+bryant.pen = rg.Pen('blue', 10)
+bryant.speed = 100
+
+bryant.forward(100)
 ###############################################################################
 #
 # TODO: 6.
