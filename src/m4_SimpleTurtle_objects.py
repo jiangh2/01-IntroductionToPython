@@ -154,9 +154,24 @@ boris.go_to(rg.Point(200, 200))
 bryant = rg.SimpleTurtle('turtle')
 bryant.pen = rg.Pen('blue', 2)
 bryant.speed = 100
-
 bryant.go_to(rg.Point(0, 200))
-bryant.go_to(rg.Point(100, 200))
+bryant.pen = rg.Pen('green', 10)
+bryant.left(45)
+bryant.forward(50)
+bryant.left(45)
+bryant.forward(50)
+bryant.left(45)
+bryant.forward(50)
+bryant.left(45)
+bryant.forward(50)
+bryant.left(45)
+bryant.forward(50)
+bryant.left(45)
+bryant.forward(50)
+bryant.left(45)
+bryant.forward(50)
+bryant.left(45)
+bryant.forward(50)
 ###############################################################################
 #
 # DONE: 6.
