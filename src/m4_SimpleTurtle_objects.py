@@ -82,7 +82,6 @@ window.delay(20)  # Bigger numbers mean slower animation.
 #   - CONSTRUCT (make) a  SimpleTurtle  object and ASSIGN a NAME to the object.
 # -----------------------------------------------------------------------------
 boris = rg.SimpleTurtle()
-
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
 #   - Ask the SimpleTurtle object to do things by applying METHODs to it.
